@@ -1,0 +1,27 @@
+.nav h1 {
+    display: inline;
+  }
+  .nav {
+    background-color: aqua;
+    padding: 15px;
+  }
+  h1{
+    margin-left: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+   .box{
+    border: 2px solid;
+    height:500px;
+    width: 450px;
+    position: relative;
+    top: 30px;
+    overflow-y: scroll;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  :target {
+    background-color: greenyellow;
+  }
